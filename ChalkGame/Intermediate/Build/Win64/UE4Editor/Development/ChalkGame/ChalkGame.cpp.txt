@@ -1,0 +1,2 @@
+C:\Users\Temp Admin\Documents\Unreal Projects\ChalkGame\Intermediate\Build\Win64\UE4Editor\Development\ChalkGame\Definitions.ChalkGame.h
+C:\Users\Temp Admin\Documents\Unreal Projects\ChalkGame\Source\ChalkGame\ChalkGame.h

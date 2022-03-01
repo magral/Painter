@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ChalkGame",
+			"Path": "C:\\Users\\Temp Admin\\Documents\\Unreal Projects\\ChalkGame\\Source\\ChalkGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ChalkGameEditor",
+			"Path": "C:\\Users\\Temp Admin\\Documents\\Unreal Projects\\ChalkGame\\Source\\ChalkGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

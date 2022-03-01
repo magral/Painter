@@ -1,0 +1,17 @@
+﻿  Parsing headers for ChalkGameEditor
+    Running UnrealHeaderTool "C:\Users\Temp Admin\Documents\Unreal Projects\ChalkGame\ChalkGame.uproject" "C:\Users\Temp Admin\Documents\Unreal Projects\ChalkGame\Intermediate\Build\Win64\ChalkGameEditor\Development\ChalkGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Temp Admin\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for ChalkGameEditor in 3.9189615 seconds
+  Building ChalkGameEditor...
+  Using Visual Studio 2019 14.29.30138 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 6 actions with 16 processes...
+    [1/6] PaintComponent.cpp
+    [2/6] ChalkGame.init.gen.cpp
+    [3/6] PaintComponent.gen.cpp
+    [4/6] UE4Editor-ChalkGame-0010.lib
+       Creating library C:\Users\Temp Admin\Documents\Unreal Projects\ChalkGame\Intermediate\Build\Win64\UE4Editor\Development\ChalkGame\UE4Editor-ChalkGame-0010.lib and object C:\Users\Temp Admin\Documents\Unreal Projects\ChalkGame\Intermediate\Build\Win64\UE4Editor\Development\ChalkGame\UE4Editor-ChalkGame-0010.exp
+    [5/6] UE4Editor-ChalkGame-0010.dll
+       Creating library C:\Users\Temp Admin\Documents\Unreal Projects\ChalkGame\Intermediate\Build\Win64\UE4Editor\Development\ChalkGame\UE4Editor-ChalkGame-0010.suppressed.lib and object C:\Users\Temp Admin\Documents\Unreal Projects\ChalkGame\Intermediate\Build\Win64\UE4Editor\Development\ChalkGame\UE4Editor-ChalkGame-0010.suppressed.exp
+    [6/6] ChalkGameEditor.target
+  Total time in Parallel executor: 1.84 seconds
+  Total execution time: 6.57 seconds

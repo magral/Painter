@@ -1,0 +1,101 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef CHALKGAME_Painter_generated_h
+#error "Painter.generated.h already included, missing '#pragma once' in Painter.h"
+#endif
+#define CHALKGAME_Painter_generated_h
+
+#define ChalkGame_Source_ChalkGame_Painter_h_12_SPARSE_DATA
+#define ChalkGame_Source_ChalkGame_Painter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execPaint);
+
+
+#define ChalkGame_Source_ChalkGame_Painter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execPaint);
+
+
+#define ChalkGame_Source_ChalkGame_Painter_h_12_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesAPainter(); \
+	friend struct Z_Construct_UClass_APainter_Statics; \
+public: \
+	DECLARE_CLASS(APainter, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/ChalkGame"), NO_API) \
+	DECLARE_SERIALIZER(APainter)
+
+
+#define ChalkGame_Source_ChalkGame_Painter_h_12_INCLASS \
+private: \
+	static void StaticRegisterNativesAPainter(); \
+	friend struct Z_Construct_UClass_APainter_Statics; \
+public: \
+	DECLARE_CLASS(APainter, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/ChalkGame"), NO_API) \
+	DECLARE_SERIALIZER(APainter)
+
+
+#define ChalkGame_Source_ChalkGame_Painter_h_12_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API APainter(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APainter) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, APainter); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APainter); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API APainter(APainter&&); \
+	NO_API APainter(const APainter&); \
+public:
+
+
+#define ChalkGame_Source_ChalkGame_Painter_h_12_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API APainter(APainter&&); \
+	NO_API APainter(const APainter&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, APainter); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APainter); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APainter)
+
+
+#define ChalkGame_Source_ChalkGame_Painter_h_12_PRIVATE_PROPERTY_OFFSET
+#define ChalkGame_Source_ChalkGame_Painter_h_9_PROLOG
+#define ChalkGame_Source_ChalkGame_Painter_h_12_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ChalkGame_Source_ChalkGame_Painter_h_12_PRIVATE_PROPERTY_OFFSET \
+	ChalkGame_Source_ChalkGame_Painter_h_12_SPARSE_DATA \
+	ChalkGame_Source_ChalkGame_Painter_h_12_RPC_WRAPPERS \
+	ChalkGame_Source_ChalkGame_Painter_h_12_INCLASS \
+	ChalkGame_Source_ChalkGame_Painter_h_12_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define ChalkGame_Source_ChalkGame_Painter_h_12_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	ChalkGame_Source_ChalkGame_Painter_h_12_PRIVATE_PROPERTY_OFFSET \
+	ChalkGame_Source_ChalkGame_Painter_h_12_SPARSE_DATA \
+	ChalkGame_Source_ChalkGame_Painter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	ChalkGame_Source_ChalkGame_Painter_h_12_INCLASS_NO_PURE_DECLS \
+	ChalkGame_Source_ChalkGame_Painter_h_12_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> CHALKGAME_API UClass* StaticClass<class APainter>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID ChalkGame_Source_ChalkGame_Painter_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
